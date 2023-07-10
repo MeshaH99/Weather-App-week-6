@@ -1,0 +1,72 @@
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+main h1 {
+  background: rgba(0, 0, 0, 0.527);
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+h3 {
+  background: rgba(0, 0, 0, 0.527);
+  color: #ffffff;
+  padding: 5px;
+}
+ul {
+  text-align: center;
+}
+li {
+  font-size: 15px;
+  list-style-type: none;
+}
+footer {
+  text-align: right;
+  margin: 0 auto;
+  font-size: 8px;
+}
+
+.container {
+  background: lightsteelblue;
+}
+.sun-emoji {
+  font-size: 80px;
+  text-align: right;
+  color: orange;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  background: #fff8dc9d;
+}
+.celsius {
+  font-size: 70px;
+}
+
+.temps {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.date-time {
+  color: grey;
+  font-size: smaller;
+  line-height: 12px;
+  text-align: left;
+}
+.summary {
+  background: none;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.527);
+}
+.card-text {
+  text-align: right;
+}
+.weather-icon {
+  text-align: center;
+  color: lightgray;
+}
+.week-to-view {
+  color: rgba(0, 0, 0, 0.527);
+}

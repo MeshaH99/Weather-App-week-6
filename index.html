@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Search Engine week 5 experiment</title>
+    <script
+      src="https://kit.fontawesome.com/402940f752.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <form id="search-form">
+        <input
+          type="text"
+          name="Location"
+          placeholder="Search for a city"
+          autocomplete="off"
+          autofocus="on"
+          id="search-city-input"
+        />
+        <input type="submit" value="Search" id="city-search-button" />
+        <button id="locate-me-button">Current</button>
+      </form>
+    </header>
+    <br />
+    <main>
+      <div class="row">
+        <div class="col-12">
+          <h1>City</h1>
+          <br />
+        </div>
+        <div class="col-5 temps">
+          <i class="fa-solid fa-sun sun-emoji"></i>
+          <span class="celsius" id="temperature-display"
+            ><strong></strong
+          ></span>
+        </div>
+        <div class="col-2 date-time">
+          <strong>Weather</strong>
+          <br />
+          <br />
+          <p id="date-time-display"></p>
+          <br />
+          <p id="weather-comment"><em></em></p>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="summary">Quick Summary</h3>
+              <p class="card-text">Humidity: <span id="humidity"></span></p>
+              <p class="card-text">Wind: <span id="wind"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br />
+    <footer>Coded by Damesha</footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
