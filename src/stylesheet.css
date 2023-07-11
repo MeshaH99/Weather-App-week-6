@@ -28,8 +28,16 @@ footer {
   font-size: 8px;
 }
 
+.background-container {
+}
 .container {
-  background: lightsteelblue;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+  margin-top: 50px;
 }
 .sun-emoji {
   font-size: 80px;
@@ -69,4 +77,10 @@ footer {
 }
 .week-to-view {
   color: rgba(0, 0, 0, 0.527);
+}
+.web-link {
+  text-align: left;
+  margin-left: 25px;
+  font-size: 8px;
+  line-height: 12px;
 }
