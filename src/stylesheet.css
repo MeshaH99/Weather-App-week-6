@@ -3,17 +3,22 @@ header {
   margin: 0 auto;
   text-align: center;
 }
+button {
+  background: #b4e1ff;
+}
 main h1 {
   background: rgba(0, 0, 0, 0.527);
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
   padding: 10px;
+  font-family: "Satisfy", cursive;
 }
 h3 {
   background: rgba(0, 0, 0, 0.527);
   color: #ffffff;
   padding: 5px;
+  font-family: "Satisfy", cursive;
 }
 ul {
   text-align: center;
