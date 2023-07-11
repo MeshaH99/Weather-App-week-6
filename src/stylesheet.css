@@ -28,8 +28,6 @@ footer {
   font-size: 8px;
 }
 
-.background-container {
-}
 .container {
   background: radial-gradient(
     circle at 10% 20%,
@@ -38,6 +36,7 @@ footer {
     rgba(170, 254, 235, 0.43) 90%
   );
   margin-top: 50px;
+  padding-top: 25px;
 }
 .sun-emoji {
   font-size: 80px;
@@ -80,7 +79,7 @@ footer {
 }
 .web-link {
   text-align: left;
-  margin-left: 25px;
+  margin-left: 70px;
   font-size: 8px;
   line-height: 12px;
 }
