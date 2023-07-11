@@ -19,55 +19,99 @@
     <link rel="stylesheet" href="src/stylesheet.css" />
   </head>
   <body>
-    <header>
-      <form id="search-form">
-        <input
-          type="text"
-          name="Location"
-          placeholder="Search for a city"
-          autocomplete="off"
-          autofocus="on"
-          id="search-city-input"
-        />
-        <input type="submit" value="Search" id="city-search-button" />
-        <button id="locate-me-button">Current</button>
-      </form>
-    </header>
-    <br />
-    <main>
-      <div class="row">
-        <div class="col-12">
-          <h1>City</h1>
-          <br />
-        </div>
-        <div class="col-5 temps">
-          <i class="fa-solid fa-sun sun-emoji"></i>
-          <span class="celsius" id="temperature-display"
-            ><strong></strong
-          ></span>
-        </div>
-        <div class="col-2 date-time">
-          <strong>Weather</strong>
-          <br />
-          <br />
-          <p id="date-time-display"></p>
-          <br />
-          <p id="weather-comment"><em></em></p>
-        </div>
-        <div class="col-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="summary">Quick Summary</h3>
-              <p class="card-text">Humidity: <span id="humidity"></span></p>
-              <p class="card-text">Wind: <span id="wind"></span></p>
+    <div class="container">
+      <header>
+        <form id="search-form">
+          <input
+            type="text"
+            name="Location"
+            placeholder="Search for a city"
+            autocomplete="off"
+            autofocus="on"
+            id="search-city-input"
+          />
+          <input type="submit" value="Search" id="city-search-button" />
+          <button id="locate-me-button">Current</button>
+        </form>
+      </header>
+      <br />
+      <main>
+        <div class="row">
+          <div class="col-12">
+            <h1>City</h1>
+            <br />
+          </div>
+          <div class="col-5 temps">
+            <i class="fa-solid fa-sun sun-emoji"></i>
+            <span class="celsius" id="temperature-display"
+              ><strong></strong
+            ></span>
+          </div>
+          <div class="col-2 date-time">
+            <strong>Weather</strong>
+            <br />
+            <br />
+            <p id="date-time-display"></p>
+            <br />
+            <p id="weather-comment"><em></em></p>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="summary">Quick Summary</h3>
+                <p class="card-text">Humidity: <span id="humidity"></span></p>
+                <p class="card-text">Wind: <span id="wind"></span></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <br />
-    <footer>Coded by Damesha</footer>
-
+      </main>
+      <br />
+      <section class="week-to-view">
+        <div class="row">
+          <div class="col-12">
+            <h3>Week at a glance</h3>
+          </div>
+          <div class="col-2">
+            <ul>
+              <li><i class="fa-solid fa-cloud-bolt weather-icon"></i></li>
+              <li>Monday</li>
+              <li>27°C</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <li><i class="fa-solid fa-cloud-sun weather-icon"></i></li>
+              <li>Tuesday</li>
+              <li>26°C</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <li><i class="fa-solid fa-cloud-sun weather-icon"></i></li>
+              <li>Wednesday</li>
+              <li>24°C</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <li><i class="fa-solid fa-cloud-sun weather-icon"></i></li>
+              <li>Thursday</li>
+              <li>25°C</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <li><i class="fa-solid fa-cloud-sun weather-icon"></i></li>
+              <li>Friday</li>
+              <li>25°C</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer>Coded by Damesha</footer>
+    </div>
+    <p class="web-link">https://reliable-cascaron-2ea809.netlify.app/</p>
     <script src="src/index.js"></script>
   </body>
 </html>
